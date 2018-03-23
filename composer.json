@@ -1,0 +1,14 @@
+{
+	"name": "watarutmnh/deleteme",
+	"description": "Allow users to delete their own account",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "Codegraph Inc.",
+			"homepage": "https://cdgrph.com/"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}

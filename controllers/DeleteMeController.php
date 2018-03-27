@@ -15,15 +15,6 @@ namespace Craft;
 
 class DeleteMeController extends BaseController {
 
-	/**
-	 * @var    bool|array Allows anonymous access to this controller's actions.
-	 * @access protected
-	 */
-	protected $allowAnonymous = array('actionIndex',
-	);
-
-	/**
-	 */
 	public function actionIndex() {
 		$this->requirePostRequest();
 
